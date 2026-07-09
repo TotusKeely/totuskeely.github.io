@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title>Autonomous cart placeholder</title>
+  <desc>Simplified mobile cart and ultrasonic waves graphic.</desc>
+  <rect width="1200" height="675" fill="#e8edf2"/>
+  <rect x="80" y="80" width="1040" height="515" rx="24" fill="#ffffff" stroke="#c8d2dc" stroke-width="4"/>
+  <g fill="none" stroke="#245c8f" stroke-width="12" stroke-linecap="round" stroke-linejoin="round">
+    
+          <path d="M300 410h470l-55-155H390z"/>
+          <circle cx="405" cy="445" r="55"/>
+          <circle cx="670" cy="445" r="55"/>
+          <circle cx="510" cy="320" r="24"/>
+          <circle cx="570" cy="320" r="24"/>
+          <path d="M800 285c60 32 60 103 0 135"/>
+          <path d="M850 245c105 60 105 170 0 230"/>
+          <path d="M900 210c145 85 145 215 0 300"/>
+        
+  </g>
+  <text x="600" y="530" text-anchor="middle" font-family="Arial, sans-serif" font-size="38" font-weight="700" fill="#18212b">Autonomous Distance-Control Cart</text>
+  <text x="600" y="575" text-anchor="middle" font-family="Arial, sans-serif" font-size="23" fill="#5f6b78">Replace this placeholder with your project image</text>
+</svg>

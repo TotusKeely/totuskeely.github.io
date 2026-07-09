@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Engineering portfolio of Totus Tuus Keely, a mechatronics engineering student with experience in mechanical design, controls, robotics, and manufacturing.">
+  <title>Totus Tuus Keely | Mechatronics Engineering Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="logo" href="#top">TTK</a>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero container">
+      <div class="hero-copy">
+        <p class="eyebrow">MECHATRONICS ENGINEERING PORTFOLIO</p>
+        <h1>Totus Tuus Keely</h1>
+        <p class="hero-title">Mechanical Design · Controls · Robotics · Manufacturing</p>
+        <p class="hero-summary">
+          Mechatronics engineering student with three engineering internships and hands-on
+          experience designing industrial equipment, developing control systems, creating
+          robotic simulations, and supporting manufacturing improvements.
+        </p>
+
+        <div class="button-row">
+          <a class="button primary" href="#projects">View Projects</a>
+          <a class="button secondary" href="assets/Totus-Tuus-Keely-Resume.pdf" target="_blank" rel="noopener">
+            View Résumé
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-panel" aria-label="Career highlights">
+        <div>
+          <strong>3</strong>
+          <span>Engineering internships</span>
+        </div>
+        <div>
+          <strong>8</strong>
+          <span>Assemblies in a major industrial design</span>
+        </div>
+        <div>
+          <strong>50</strong>
+          <span>Staff members led in student media</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section container">
+      <div class="section-heading">
+        <p class="eyebrow">ABOUT</p>
+        <h2>Engineering systems from concept through documentation</h2>
+      </div>
+
+      <div class="two-column">
+        <p>
+          My work combines mechanical design, electronics, controls, programming, testing,
+          and technical communication. I am especially interested in roles where I can turn
+          an operational need into a practical, manufacturable system.
+        </p>
+        <p>
+          My experience includes SolidWorks large assemblies, sheet metal, weldments,
+          engineering drawings, bills of materials, SolidWorks PDM, validation testing,
+          design for manufacturability, Python, MATLAB, C++, Arduino, Raspberry Pi, and RoboDK.
+        </p>
+      </div>
+    </section>
+
+    <section id="projects" class="section section-alt">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">FEATURED PROJECTS</p>
+          <h2>Selected engineering work</h2>
+          <p class="section-intro">
+            Each project should show the problem, your specific contribution, the engineering
+            decisions you made, and the result—not only the finished model.
+          </p>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card">
+            <img src="assets/images/spray-booth.svg" alt="Placeholder graphic for industrial spray booth project">
+            <div class="project-card-body">
+              <p class="project-type">INDUSTRIAL DESIGN</p>
+              <h3>Crossdraft Spray Booth</h3>
+              <p>
+                Designed most of a large industrial spray booth using SolidWorks sheet metal,
+                weldments, large assemblies, PDM, drawings, and bills of materials.
+              </p>
+              <div class="tag-row">
+                <span>SolidWorks</span><span>Sheet Metal</span><span>Weldments</span><span>DFM</span>
+              </div>
+              <a class="text-link" href="#spray-booth">View case study →</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img src="assets/images/motor-control.svg" alt="Placeholder graphic for DC motor control project">
+            <div class="project-card-body">
+              <p class="project-type">CONTROLS</p>
+              <h3>DC Motor Position Control</h3>
+              <p>
+                Developed and tested a feedback controller for motor position using an Arduino,
+                encoder feedback, a motor shield, and a Python interface.
+              </p>
+              <div class="tag-row">
+                <span>Arduino</span><span>Python</span><span>PD Control</span><span>Encoders</span>
+              </div>
+              <a class="text-link" href="#motor-control">View case study →</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img src="assets/images/robotics.svg" alt="Placeholder graphic for robotic pick-and-place project">
+            <div class="project-card-body">
+              <p class="project-type">ROBOTICS</p>
+              <h3>6-DOF Robotic Pick-and-Place</h3>
+              <p>
+                Programmed and verified a three-point pick-and-place sequence in RoboDK using
+                tool frames, homogeneous transforms, and motion planning.
+              </p>
+              <div class="tag-row">
+                <span>RoboDK</span><span>Python</span><span>Transforms</span><span>Simulation</span>
+              </div>
+              <a class="text-link" href="#robotics">View case study →</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img src="assets/images/cart.svg" alt="Placeholder graphic for autonomous cart project">
+            <div class="project-card-body">
+              <p class="project-type">EMBEDDED SYSTEMS</p>
+              <h3>Autonomous Distance-Control Cart</h3>
+              <p>
+                Integrated ultrasonic sensing and PWM motor control on a Raspberry Pi-based
+                cart to maintain position and respond to measured distance.
+              </p>
+              <div class="tag-row">
+                <span>Raspberry Pi</span><span>PWM</span><span>Sensors</span><span>Python</span>
+              </div>
+              <a class="text-link" href="#cart">View case study →</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="spray-booth" class="case-study container">
+      <div class="case-study-image">
+        <img src="assets/images/spray-booth.svg" alt="Placeholder for an approved spray booth render or photograph">
+        <p class="image-note">Replace with an employer-approved render or photograph.</p>
+      </div>
+      <div class="case-study-copy">
+        <p class="eyebrow">CASE STUDY 01</p>
+        <h2>Industrial Crossdraft Spray Booth</h2>
+        <p class="lead">
+          A large-scale mechanical design project requiring structural framing, sheet-metal
+          enclosures, filter arrangements, doors, lighting integration, access provisions,
+          documentation, and design-for-manufacturing decisions.
+        </p>
+
+        <div class="case-study-block">
+          <h3>My contribution</h3>
+          <ul>
+            <li>Designed approximately 90% of the system across 8 assemblies and about 100 total parts.</li>
+            <li>Created sheet-metal components, weldments, drawings, cut lists, and multiple BOM formats.</li>
+            <li>Used envelope-based modeling and SolidWorks PDM to manage interfaces and revisions.</li>
+            <li>Evaluated filter velocity, pressure drop, anchoring, access, fastening, and manufacturability.</li>
+          </ul>
+        </div>
+
+        <div class="case-study-block">
+          <h3>What to add before publishing</h3>
+          <ul>
+            <li>One approved overall render.</li>
+            <li>One close-up showing a design challenge such as a door, filter grid, or panel joint.</li>
+            <li>A short explanation of one tradeoff and how you selected the final approach.</li>
+            <li>No customer names, proprietary drawings, restricted dimensions, or confidential files.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="motor-control" class="case-study case-study-reverse section-alt">
+      <div class="case-study-image">
+        <img src="assets/images/motor-control.svg" alt="Placeholder for motor control setup, block diagram, or response graph">
+        <p class="image-note">Replace with your test setup and one response plot.</p>
+      </div>
+      <div class="case-study-copy">
+        <p class="eyebrow">CASE STUDY 02</p>
+        <h2>DC Motor Position Control</h2>
+        <p class="lead">
+          A closed-loop controls project using encoder feedback to command and measure the
+          angular position of a geared DC motor.
+        </p>
+
+        <div class="case-study-block">
+          <h3>System</h3>
+          <ul>
+            <li>Arduino Uno and Adafruit Motor Shield V2.</li>
+            <li>100:1 gearmotor with encoder feedback.</li>
+            <li>Python/Tkinter interface for commands and measured response.</li>
+            <li>Proportional-derivative control with experimentally evaluated gains.</li>
+          </ul>
+        </div>
+
+        <div class="case-study-block">
+          <h3>What to show</h3>
+          <ul>
+            <li>A labeled hardware photograph or wiring diagram.</li>
+            <li>The control block diagram and the governing equations.</li>
+            <li>A commanded-versus-measured angle plot.</li>
+            <li>How changing the gains affected rise time, overshoot, and settling.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="robotics" class="case-study container">
+      <div class="case-study-image">
+        <img src="assets/images/robotics.svg" alt="Placeholder for RoboDK robotic pick-and-place simulation">
+        <p class="image-note">Replace with a RoboDK screenshot or short GIF.</p>
+      </div>
+      <div class="case-study-copy">
+        <p class="eyebrow">CASE STUDY 03</p>
+        <h2>6-DOF Robotic Pick-and-Place</h2>
+        <p class="lead">
+          A RoboDK simulation using a HIWIN industrial robot and RobotiQ gripper to complete
+          a repeatable three-point pick-and-place operation.
+        </p>
+
+        <div class="case-study-block">
+          <h3>Technical work</h3>
+          <ul>
+            <li>Defined robot, tool, and target coordinate frames.</li>
+            <li>Computed and checked 4×4 homogeneous transformation matrices.</li>
+            <li>Verified rotation-matrix orthogonality and determinant.</li>
+            <li>Developed motion logic and validated the simulated sequence.</li>
+          </ul>
+        </div>
+
+        <div class="case-study-block">
+          <h3>What to show</h3>
+          <ul>
+            <li>A GIF of the complete motion cycle.</li>
+            <li>A frame diagram showing base, flange, tool, and target relationships.</li>
+            <li>A small, readable code excerpt for transform or motion logic.</li>
+            <li>The verification steps used to confirm the transforms were valid.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="cart" class="case-study case-study-reverse section-alt">
+      <div class="case-study-image">
+        <img src="assets/images/cart.svg" alt="Placeholder for autonomous distance-control cart">
+        <p class="image-note">Replace with a cart photograph and a system diagram.</p>
+      </div>
+      <div class="case-study-copy">
+        <p class="eyebrow">CASE STUDY 04</p>
+        <h2>Autonomous Distance-Control Cart</h2>
+        <p class="lead">
+          An embedded project combining ultrasonic distance measurement, directional motor
+          commands, and PWM speed control on a small mobile platform.
+        </p>
+
+        <div class="case-study-block">
+          <h3>Technical work</h3>
+          <ul>
+            <li>Read distance using an HC-SR04 ultrasonic sensor.</li>
+            <li>Controlled left and right motors with separate PWM outputs.</li>
+            <li>Implemented threshold-based movement logic and tuned motor duty cycles.</li>
+            <li>Troubleshot CircuitPython libraries, board definitions, and USB communication.</li>
+          </ul>
+        </div>
+
+        <div class="case-study-block">
+          <h3>What to show</h3>
+          <ul>
+            <li>A short demonstration video or GIF.</li>
+            <li>A wiring diagram and signal-flow diagram.</li>
+            <li>A concise flowchart of the decision logic.</li>
+            <li>The main challenge you encountered and how you resolved it.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section container">
+      <div class="section-heading">
+        <p class="eyebrow">SKILLS</p>
+        <h2>Tools and engineering capabilities</h2>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skill-group">
+          <h3>Mechanical Design</h3>
+          <p>SolidWorks, large assemblies, sheet metal, weldments, drawings, GD&amp;T fundamentals, BOMs, PDM, DFM</p>
+        </div>
+        <div class="skill-group">
+          <h3>Controls & Robotics</h3>
+          <p>Feedback control, PID/PD concepts, MATLAB, RoboDK, coordinate transforms, motion simulation</p>
+        </div>
+        <div class="skill-group">
+          <h3>Programming & Embedded</h3>
+          <p>Python, C++, Arduino, Raspberry Pi, CircuitPython, sensor integration, PWM motor control</p>
+        </div>
+        <div class="skill-group">
+          <h3>Manufacturing & Testing</h3>
+          <p>Prototype iteration, validation testing, technical documentation, root-cause troubleshooting, process improvement</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section section-alt">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">EXPERIENCE</p>
+          <h2>Engineering and leadership</h2>
+        </div>
+
+        <div class="timeline">
+          <article>
+            <p class="timeline-label">MECHANICAL ENGINEERING INTERN</p>
+            <h3>Precision Quincy Inc.</h3>
+            <p>Industrial equipment design, SolidWorks assemblies, sheet metal, weldments, PDM, BOMs, design reviews, and testing.</p>
+          </article>
+          <article>
+            <p class="timeline-label">ENGINEERING INTERN</p>
+            <h3>Pregis</h3>
+            <p>Packaging machinery, enclosures, test fixtures, drawings, prototype iterations, and user/technical manuals.</p>
+          </article>
+          <article>
+            <p class="timeline-label">ENGINEERING INTERN</p>
+            <h3>American Ordnance</h3>
+            <p>Manufacturing process improvement and production-data organization.</p>
+          </article>
+          <article>
+            <p class="timeline-label">EDITOR-IN-CHIEF</p>
+            <h3>Northern Star</h3>
+            <p>Lead a roughly 50-person student news organization with 14 direct reports, coordinating daily digital and print production.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+      <div class="container contact-content">
+        <div>
+          <p class="eyebrow">CONTACT</p>
+          <h2>Let’s discuss engineering opportunities.</h2>
+          <p>
+            Replace the placeholder email and LinkedIn link below before publishing this section.
+          </p>
+        </div>
+        <div class="contact-links">
+          <a href="mailto:YOUR_EMAIL@example.com">Email</a>
+          <a href="YOUR_LINKEDIN_URL" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://github.com/TotusKeely" target="_blank" rel="noopener">GitHub</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer container">
+    <p>© 2026 Totus Tuus Keely. Built with HTML and CSS on GitHub Pages.</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title>Industrial spray booth placeholder</title>
+  <desc>Simplified line graphic of an industrial booth.</desc>
+  <rect width="1200" height="675" fill="#e8edf2"/>
+  <rect x="80" y="80" width="1040" height="515" rx="24" fill="#ffffff" stroke="#c8d2dc" stroke-width="4"/>
+  <g fill="none" stroke="#245c8f" stroke-width="12" stroke-linecap="round" stroke-linejoin="round">
+    
+          <path d="M240 430V230h720v200"/>
+          <path d="M320 430V290h560v140"/>
+          <path d="M240 230l80-70h560l80 70"/>
+          <path d="M430 290v140M600 290v140M770 290v140"/>
+          <path d="M340 350h520"/>
+        
+  </g>
+  <text x="600" y="530" text-anchor="middle" font-family="Arial, sans-serif" font-size="38" font-weight="700" fill="#18212b">Industrial Crossdraft Spray Booth</text>
+  <text x="600" y="575" text-anchor="middle" font-family="Arial, sans-serif" font-size="23" fill="#5f6b78">Replace this placeholder with your project image</text>
+</svg>
