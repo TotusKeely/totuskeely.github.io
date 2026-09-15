@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Laser welding validation placeholder</title>
+  <desc id="desc">Minimal technical placeholder for the laser welding validation project.</desc>
+  <rect width="1200" height="800" fill="#e8edf3"/>
+  <g fill="none" stroke="#244a7c" stroke-width="18" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M245 530h710"/>
+    <path d="M390 530 505 390h190l115 140"/>
+    <path d="M505 390 600 245l95 145"/>
+    <path d="M600 245v-95"/>
+    <path d="m600 150-38 55M600 150l38 55M600 150h70M600 150h-70"/>
+    <path d="M445 530h310" stroke-dasharray="28 24"/>
+  </g>
+  <text x="80" y="110" fill="#0f172a" font-family="Arial, Helvetica, sans-serif" font-size="54" font-weight="700">LASER WELD VALIDATION</text>
+  <text x="82" y="165" fill="#64748b" font-family="Arial, Helvetica, sans-serif" font-size="28">Replace with approved test photos or video stills</text>
+</svg>

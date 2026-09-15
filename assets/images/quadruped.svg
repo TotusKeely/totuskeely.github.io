@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Autonomous quadruped placeholder</title>
+  <desc id="desc">Minimal technical placeholder for the quadruped navigation project.</desc>
+  <rect width="1200" height="800" fill="#e8edf3"/>
+  <g fill="none" stroke="#244a7c" stroke-width="18" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="375" y="285" width="450" height="205" rx="38"/>
+    <circle cx="470" cy="382" r="34"/>
+    <circle cx="730" cy="382" r="34"/>
+    <path d="M430 490 340 600 270 680M520 490 470 615 430 700M680 490 730 615 770 700M770 490 860 600 930 680"/>
+    <path d="M825 330 910 285 1000 310"/>
+    <path d="M565 270 600 205 635 270"/>
+    <path d="M560 206h80"/>
+  </g>
+  <text x="80" y="110" fill="#0f172a" font-family="Arial, Helvetica, sans-serif" font-size="54" font-weight="700">AUTONOMOUS QUADRUPED</text>
+  <text x="82" y="165" fill="#64748b" font-family="Arial, Helvetica, sans-serif" font-size="28">Replace with your own project photo or GIF</text>
+</svg>
